@@ -10,7 +10,7 @@
     margin-right: auto;
 }
 #estrutura #titulo{
-    background-image: url("../imagens/cafe2.jpg");/*imagen do tituko*/
+    background-image: url("../imagens/cafe2.jpg");/*imagen do titulo*/
     background-position: -400px -300px;
     color: white;
     font-size: 15pt;
@@ -60,12 +60,6 @@ p{
     font-size: 14pt;
     padding: 10px;
 }
-#estrtura #conteudo .textohome{
-    font-family: Times New Roman;
-    font-size: 14pt;
-    line-height: 14pt;
-    padding-left: 20px;
-}
 #rodape{
     padding: 20px;
     font-family: arial;
@@ -81,6 +75,164 @@ p{
     height: 250px;
     margin: 10px;
 }
-#estrutura #conteudo .imghome{text-align: center;}
+#estrutura #conteudo .imghome{
+    text-align: center;}
 
-.abaxar{clear: both;}
+.abaixar{clear: both;}
+
+/*cafe*/
+#estruturacafe{
+    background-color: white; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#estruturacafe #titulocafe{
+    background-image: url("../imagens/cafe4.jpg");
+    background-position: -400px -300px;
+    color: white;
+    font-size: 15pt;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 350;
+}
+.titulocafe{
+    margin-top: 150px;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: century Gothic;
+    font-size: 14pt;
+}
+#estruturacafe #menu ul{
+    padding: 0px;
+}
+#estruturacafe #menu li{
+    list-style: none;
+    display: inline-block;
+    width: 239px;
+    text-align: center;
+    padding: 0px 0px;
+}
+#estruturacafe #menu a{
+    font-family: arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #800;
+    background-color: #ff8;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+}
+#estruturacafe #menu a:hover{
+    background-color: #800;
+    color: white;
+}
+#estruturacafe #menu a.atual{
+    background-color: #ff9900;
+}
+#estruturacafe #menu h2{
+    font-family: arial;
+    font-size: 14pt;
+    padding: 10px;
+}
+#rodape{
+    padding: 20px;
+    font-family: arial;
+    background-color: #800;
+    color: #fff;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#estruturacafe #conteudocafe .imgcafe img{
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+}
+#estruturacafe #conteudocafe .imgcafe{
+    text-align: center;}
+
+    .abaixar{clear: both;}
+
+
+/*doces*/
+#estruturadoces{
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#estruturadoces #titulodoces{
+    background-image: url("../imagens/torta4.jpg");
+    background-position: -500px -550px;
+    color: black;
+    font-size: 15pt;
+    font-family: Arial;
+    padding-top: 15px;
+    padding-left: 15px;
+    height: 200;
+}
+.titulodoces{
+    margin-top: 150px;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: century Gothic;
+    font-size: 14pt;
+}
+#estruturadoces #menu ul{
+    padding: 0px;
+}
+#estruturadoces #menu li{
+    list-style: none;
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+    padding: 0px 0px;
+}
+#estruturadoces #menu a{
+    font-family: arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #800;
+    background-color: #ff8;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+}
+#estruturadoces #menu a:hover{
+    background-color: #800;
+    color: white;
+}
+#estruturadoces #menu a.atual{
+    background-color: #ff9900;
+}
+#estruturadoces #menu h2{
+    font-family: arial;
+    font-size: 14pt;
+    padding: 10px;
+}
+#rodape{
+    padding: 20px;
+    font-family: arial;
+    background-color: #800;
+    color: #fff;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#estruturadoces #conteudodoces .imgdoces img{
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+}
+#estruturadoces #conteudodoces .imgdoces{
+    text-align: center;}
+
+    .abaixar{clear: both;}
