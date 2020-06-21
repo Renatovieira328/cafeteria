@@ -1,1 +1,86 @@
-/*z*/
+/*zerando a pagina do navegador*/
+*{
+    margin: 0px;
+}
+
+#estrutura{
+    background-color: white; /*cor de fundo*/
+    width: 90%;/*largura*/
+    margin-left: auto;
+    margin-right: auto;
+}
+#estrutura #titulo{
+    background-image: url("../imagens/cafe2.jpg");/*imagen do tituko*/
+    background-position: -400px -300px;
+    color: white;
+    font-size: 15pt;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 350;
+}
+.titulo{
+    margin-top: 400px;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: century Gothic;
+    font-size: 14pt;
+}
+#estrutura #menu ul{
+    padding: 0px;
+}
+#estrutura #menu li{
+    list-style: none;
+    display: inline-block;
+    width: 239px;
+    text-align: center;
+    padding: 0px 0px;
+}
+#estrutura #menu a{
+    font-family: arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #800;
+    background-color: #ff8;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+}
+#estrutura #menu a:hover{
+    background-color: #800;
+    color: white;
+}
+#estrutura #menu a.atual{
+    background-color: #ff9900;
+}
+#estrutura #menu h2{
+    font-family: arial;
+    font-size: 14pt;
+    padding: 10px;
+}
+#estrtura #conteudo .textohome{
+    font-family: Times New Roman;
+    font-size: 14pt;
+    line-height: 14pt;
+    padding-left: 20px;
+}
+#rodape{
+    padding: 20px;
+    font-family: arial;
+    background-color: #800;
+    color: #fff;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#estrutura #conteudo .imghome img{
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+}
+#estrutura #conteudo .imghome{text-align: center;}
+
+.abaxar{clear: both;}
